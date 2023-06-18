@@ -136,10 +136,9 @@ packages:
   soundpool_platform_interface:
     dependency: "direct main"
     description:
-      name: soundpool_platform_interface
-      sha256: "9787f96b54a12e236cd3715cd2cc4bcd1fc1131e834ea7b295ac849ab4e24eab"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../soundpool_platform_interface"
+      relative: true
+    source: path
     version: "2.1.0"
   source_span:
     dependency: transitive

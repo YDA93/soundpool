@@ -39,10 +39,10 @@ packages:
     dependency: transitive
     description:
       name: http
-      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
+      sha256: "4c3f04bfb64d3efd508d06b41b825542f08122d30bda4933fb95c069d22a4fa3"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.6"
+    version: "1.0.0"
   http_parser:
     dependency: transitive
     description:
@@ -99,35 +99,32 @@ packages:
   soundpool_macos:
     dependency: "direct main"
     description:
-      name: soundpool_macos
-      sha256: dd389a629d32e3960fbe55958f2f7e03e074c4987fadf38fbe6c7e0a1ba32528
-      url: "https://pub.dev"
-    source: hosted
+      path: soundpool_macos
+      relative: true
+    source: path
     version: "2.2.0"
   soundpool_platform_interface:
     dependency: "direct main"
     description:
-      name: soundpool_platform_interface
-      sha256: "9787f96b54a12e236cd3715cd2cc4bcd1fc1131e834ea7b295ac849ab4e24eab"
-      url: "https://pub.dev"
-    source: hosted
+      path: soundpool_platform_interface
+      relative: true
+    source: path
     version: "2.1.0"
   soundpool_web:
     dependency: "direct main"
     description:
-      name: soundpool_web
-      sha256: "5242ebd135c210e6b4239fb2409f2da91af688358e3070c9c33ea625d85b7d22"
-      url: "https://pub.dev"
-    source: hosted
+      path: soundpool_web
+      relative: true
+    source: path
     version: "2.2.0"
   source_span:
     dependency: transitive
     description:
       name: source_span
-      sha256: dd904f795d4b4f3b870833847c461801f6750a9fa8e61ea5ac53f9422b31f250
+      sha256: "53e943d4206a5e30df338fd4c6e7a077e02254531b138a15aec3bd143c1a8b3c"
       url: "https://pub.dev"
     source: hosted
-    version: "1.9.1"
+    version: "1.10.0"
   string_scanner:
     dependency: transitive
     description:
@@ -162,4 +159,3 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.0 <4.0.0"
-  flutter: ">=2.0.0"
