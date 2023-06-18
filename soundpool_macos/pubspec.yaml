@@ -3,11 +3,9 @@ description: A Flutter Sound Pool for playing short audio files. Sound tracks ar
 version: 2.2.0
 homepage: https://github.com/ukasz123/soundpool/tree/master/soundpool_macos
 
-
 environment:
-  sdk: '>=2.14.0 <3.0.0'
-  flutter: '>=2.0.0'
-  
+  sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
