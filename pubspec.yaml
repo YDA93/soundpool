@@ -10,23 +10,3 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  soundpool_platform_interface:
-    path: soundpool_platform_interface
-  soundpool_web:
-    path: soundpool_web
-  soundpool_macos:
-    path: soundpool_macos
-
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: pl.ukaszapps.soundpool
-        pluginClass: SoundpoolPlugin
-      ios:
-        pluginClass: SoundpoolPlugin
-      web:
-        default_package: soundpool_web
-      macos:
-        default_package: soundpool_macos
